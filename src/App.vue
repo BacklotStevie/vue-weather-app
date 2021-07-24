@@ -30,7 +30,8 @@ export default {
   name: 'App',
   data () {
     return {
-      api_key: '604ee7c237024cd80c154355a054b83b'
+      api_key: '604ee7c237024cd80c154355a054b83b',
+      url_base: 'https://api.openweathermap.org/data/2.5'
     }
   }
 }
@@ -123,5 +124,13 @@ main{
   margin: 30px 0px;
 
   box-shadow: 3px 6px rgba(0, 0, 0, 0.25)
+}
+
+.weather-box .weather{
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
 }
 </style>
